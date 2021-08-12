@@ -1,7 +1,7 @@
 {
   "User": {
     "id": { "int": {} },
-    "image" { "string": [
+    "image": { "string": [
       "https://bit.ly/3jLuswN",
       "https://bit.ly/3lYkaw8",
       "https://bit.ly/3iFFogc",
