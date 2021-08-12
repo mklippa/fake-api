@@ -1,14 +1,13 @@
 {
-  "Post": {
-    "title": { "string": {} },
-    "comments": {
-      "hasMany": "Comment"
-    }
-  },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
-    }
+  "User": {
+    "id": { "int": {} },
+    "image" { "string": [
+      "https://bit.ly/3jLuswN",
+      "https://bit.ly/3lYkaw8",
+      "https://bit.ly/3iFFogc",
+      "https://bit.ly/3iFFogc"
+    ] },
+    "name": { "string": {} },
+    "email": { "string": {} }
   }
 }
